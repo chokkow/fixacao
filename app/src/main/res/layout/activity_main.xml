@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#514343"
+    android:foreground="@drawable/ic_launcher_foreground"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/entrar"
+        android:layout_width="180dp"
+        android:layout_height="59dp"
+        android:background="#3F51B5"
+        android:onClick="Entrar"
+        android:text="Entrar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/T"
+        app:layout_constraintVertical_bias="0.614" />
+
+    <TextView
+        android:id="@+id/T"
+        android:layout_width="266dp"
+        android:layout_height="88dp"
+        android:background="#673AB7"
+        android:text="  APLICATIVOS"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.161" />
+</androidx.constraintlayout.widget.ConstraintLayout>
